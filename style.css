@@ -1,0 +1,58 @@
+header{
+    width: 100%;
+    text-align: center;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template: 5px;
+    width: 50%;
+}
+
+#grid input{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid black;
+}
+
+#slv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+#boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+#boton button{
+    height: 50px;
+    width: 40px;
+    margin: 5px;
+}
+
+#submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#bot{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 1px;
+    border-color: black;
+}
+
+footer{
+    bottom: 0;
+}
